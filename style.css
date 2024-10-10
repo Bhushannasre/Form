@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.form-group {
+    width: 380px;
+    height: 35px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input{
+  
+    width: 220px;
+    height: 27px;
+    /* padding: 1px; */
+    border-radius: 5px;
+    transition:all;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
+input:invalid{
+    border: 1px solid red
+}
+button{
+    cursor: pointer;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 5px;
+
+}
+button:hover{
+    filter: brightness(20%);
+    background: rgb(22,22,22);
+
+}
+button:focus{
+    outline:none;
+}
+.message-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
